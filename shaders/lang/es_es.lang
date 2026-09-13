@@ -1,0 +1,79 @@
+screen.INFORMATION=Information
+screen.PERFORMANCE_SETTINGS=§ePerformance Settings§r
+screen.LIGHTING_SETTINGS=Lighting
+screen.SHADOW_SETTINGS=Shadows
+screen.CAMERA_SETTINGS=Camera
+screen.TONEMAP_SETTINGS=Color Balance
+screen.BLOOM_SETTINGS=Bloom / Glow
+screen.ATMOSPHERE_SETTINGS=Atmosphere
+screen.MATERIAL_SETTINGS=Materials
+screen.WATER_SETTINGS=Water
+screen.OTHER_SETTINGS=Other
+
+profile.POTATO=Potato
+profile.LOW=Low
+profile.MEDIUM=Medium
+profile.HIGH=High
+profile.ULTRA=Ultra
+
+option.SHADER_STYLE=HSN-Shaders
+option.info0=HSN-Shaders
+option.info1=
+option.info2=
+option.info3=
+option.info4=
+
+option.SHADOW_QUALITY=Shadow quality
+option.SHADOW_QUALITY.-1=Off
+option.SHADOW_QUALITY.0=Hard
+option.SHADOW_QUALITY.1=Soft
+option.SHADOW_QUALITY.2=Softer
+option.shadowMapResolution=Shadow map resolution
+option.shadowDistance=Shadow distance
+option.SHADOW_BIAS=Shadow bias
+option.SHADOW_DISTORT_FACTOR=Shadow distortion
+option.SHADOW_BRIGHTNESS=Shadow brightness
+option.SHADOW_DISTORT_ENABLED=Distort shadow map
+option.NORMAL_BIAS=Normal bias
+option.ENTITY_SHADOW=Entity shadows
+
+option.WARMTH=Warmth
+option.SATURATION=Saturation
+option.CONTRAST=Contrast
+option.EXPOSURE=Exposure
+option.GLOW_STRENGTH=Highlight glow
+option.BLOOM_ENABLED=Bloom
+option.BLOOM_STRENGTH=Bloom strength
+option.VIGNETTE=Vignette
+option.CHROMA_ABERRATION=Chromatic aberration
+option.SHARPEN=Sharpen
+option.WATER_TINT=Water tint
+option.WATER_WAVES=Water waves
+option.FOG_STRENGTH=Horizon warmth
+
+shaderDescription=HSN-Shaders
+
+screen.CLOUD_SETTINGS=Clouds
+screen.GODRAY_SETTINGS=God Rays
+screen.WAVING_SETTINGS=Waving Plants
+
+option.CLOUDS_ENABLED=2D clouds
+option.CLOUD_OPACITY=Cloud opacity
+option.GODRAYS_ENABLED=God rays
+option.GODRAY_STRENGTH=God ray strength
+option.SSAO_ENABLED=Ambient occlusion
+option.SSAO_STRENGTH=AO strength
+option.WAVING_FOLIAGE=Waving plants
+option.WAVING_SPEED=Wave speed
+option.WAVING_STRENGTH=Wave amount
+option.DITHER_ENABLED=Dither
+
+option.NIGHT_FOG=Night fog / solitude
+option.FOG_DENSITY=Fog density
+option.SUN_SIZE=Sun size
+option.MOON_SIZE=Moon size
+
+screen.VL_SETTINGS=Volumetric Lighting
+option.VOLUMETRIC_LIGHTING=Volumetric lighting
+option.VL_STRENGTH=VL strength
+option.VL_STEPS=VL quality (steps)
