@@ -1,0 +1,13 @@
+Lite 26.3.1
+- Fix terrain_translucent compile on Iris 1.11.6 / MC 26.3
+- Restore older config menu (Performance, Lighting, Bloom, Water, Atmosphere)
+- Bloom toggle works on every profile
+- Water reflections (lite SSR) on High by default, manual toggle elsewhere
+- Vanilla sun / moon sprites — no drawn circle
+- Add terrain_solid / terrain_cutout / terrain_translucent program files
+
+Lite 26.3
+- Cut VL/SSAO/godrays/composite3 for Intel HD / i3
+- Default shadow map 512
+- Stable full-res bloom only
+- Menu trimmed for 26.3 Iris 1.11.6
