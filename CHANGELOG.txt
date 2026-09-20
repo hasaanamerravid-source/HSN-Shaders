@@ -1,0 +1,40 @@
+26.3.5
+- Removed god rays, ambient occlusion, volumetric lighting, and water reflections
+- Removed 2D clouds option, sun/moon size sliders, and leftover menu pages
+- Post processing toggle (bloom, vignette, sharpen, color grade, chromatic aberration)
+- Small bloom / glow on the sun only (moon and clouds stay vanilla)
+- Vanilla sun, moon, and clouds are left as-is (they were going see-through on Medium and High)
+- Shadow map stays at 512. Medium and High just push shadow distance out
+- Entity shadows on
+- Pack name uses 26.3.5 instead of 26_3_5
+- Fix: players and mobs no longer go black in their own shadow
+- Fix: night does not fade the world to black
+- Fix: shadows no longer pop to full sun at the edge of the shadow map
+- Fix: underwater is not crystal clear. Distance fog actually builds up
+- Fix: moon sprite no longer gets the sun glow boost
+- Fix: bloom only hits the sun, lava, and lamps instead of random blocks
+
+26.3.4
+- Night grass and leaves stay green instead of turning blue
+- Fog uses height, distance, and rain so it actually shows
+- Night fog is a dim warm gray, not purple haze
+- Bloom is tighter so the whole frame does not smear
+
+26.3.3
+- Torches and lanterns keep their orange color
+- Hanging lanterns, chains, and cave vines swing from the top
+- Night fog is a bit thicker near the horizon
+
+26.3.1
+- Fix terrain_translucent compile on Iris 1.11.6 / MC 26.3
+- Restore older config menu (Performance, Lighting, Bloom, Water, Atmosphere)
+- Bloom toggle works on every profile
+- Water reflections (lite SSR) on High by default, manual toggle elsewhere
+- Vanilla sun / moon sprites — no drawn circle
+- Add terrain_solid / terrain_cutout / terrain_translucent program files
+
+26.3
+- Cut VL/SSAO/godrays/composite3 for Intel HD / i3
+- Default shadow map 512
+- Stable full-res bloom only
+- Menu trimmed for 26.3 Iris 1.11.6
