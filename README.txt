@@ -7,7 +7,6 @@ Profiles
 - Medium: soft shadows, fog
 - High: same look as Medium, longer shadow distance
 
-Vanilla sun, moon, and clouds are not touched.
 Post processing (bloom, vignette, sharpen, color) can be turned off in the shader menu.
 
 Install
