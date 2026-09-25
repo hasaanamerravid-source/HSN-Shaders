@@ -1,0 +1,56 @@
+screen.PERFORMANCE_SETTINGS=Performance
+screen.SHADOW_SETTINGS=Shadows
+screen.POST_SETTINGS=Post Processing
+screen.ATMOSPHERE_SETTINGS=Atmosphere
+screen.WATER_SETTINGS=Water
+screen.FOLIAGE_SETTINGS=Foliage
+screen.EXPERIMENTAL_SETTINGS=Experimental
+
+profile.POTATO=Potato
+profile.LOW=Low
+profile.MEDIUM=Medium
+profile.HIGH=High
+
+option.POST_PROCESSING=Post processing
+option.POST_PROCESSING.comment=Bloom, vignette, sharpen, color grade, and chromatic aberration. Off skips all of that.
+
+option.SHADOW_QUALITY=Shadow quality
+value.SHADOW_QUALITY.-1=Off
+value.SHADOW_QUALITY.0=Hard
+value.SHADOW_QUALITY.1=Soft
+option.shadowDistance=Shadow distance
+option.SHADOW_BIAS=Shadow bias
+option.SHADOW_BRIGHTNESS=Shadow brightness
+option.SHADOW_DISTORT_FACTOR=Shadow warp
+option.SHADOW_DISTORT_FACTOR.comment=Lower pinches the map toward you. Raise it if the player shadow is cut off.
+
+option.WARMTH=Warmth
+option.SATURATION=Saturation
+option.CONTRAST=Contrast
+option.EXPOSURE=Exposure
+option.GLOW_STRENGTH=Highlight glow
+option.BLOOM_ENABLED=Bloom
+option.BLOOM_ENABLED.comment=Soft glow on bright blocks, lava, and the sun. Needs Post processing on.
+option.BLOOM_STRENGTH=Bloom strength
+option.VIGNETTE=Vignette
+option.CHROMA_ABERRATION=Chromatic aberration
+option.SHARPEN=Sharpen
+option.WATER_TINT=Water tint
+option.WATER_WAVES=Water waves
+option.WATER_WAVES.comment=Ripple on the water surface. Tint still works when this is off.
+option.FOG_STRENGTH=Fog strength
+option.NIGHT_FOG=Night fog
+option.FOG_DENSITY=Fog density
+option.WAVING_FOLIAGE=Waving plants
+option.WAVING_FOLIAGE.comment=Grass, flowers, crops, and leaves. Vines do not wave.
+option.WAVING_SPEED=Wave speed
+option.WAVING_STRENGTH=Wave amount
+
+option.SSAO_ENABLED=SSAO (experimental)
+option.SSAO_ENABLED.comment=Screen-space ambient occlusion. Can be slow or noisy on weaker GPUs. Off by default.
+option.SSAO_STRENGTH=SSAO strength
+option.GODRAYS_ENABLED=God rays (experimental)
+option.GODRAYS_ENABLED.comment=Light shafts from the sun. Experimental, off by default.
+option.GODRAYS_STRENGTH=God rays strength
+
+shaderDescription=HSN-Shaders Lite 26.3.6 for Minecraft 26.3 / OptiFine. SSAO and god rays are experimental and off by default.

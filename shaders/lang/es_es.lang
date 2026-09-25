@@ -1,0 +1,53 @@
+screen.PERFORMANCE_SETTINGS=Rendimiento
+screen.SHADOW_SETTINGS=Sombras
+screen.POST_SETTINGS=Postprocesado
+screen.ATMOSPHERE_SETTINGS=Atmosfera
+screen.WATER_SETTINGS=Agua
+screen.FOLIAGE_SETTINGS=Follaje
+screen.EXPERIMENTAL_SETTINGS=Experimental
+
+profile.POTATO=Potato
+profile.LOW=Low
+profile.MEDIUM=Medium
+profile.HIGH=High
+
+option.POST_PROCESSING=Postprocesado
+option.POST_PROCESSING.comment=Bloom, vignette, nitidez, color y aberracion cromatica.
+
+option.SHADOW_QUALITY=Calidad de sombras
+value.SHADOW_QUALITY.-1=Off
+value.SHADOW_QUALITY.0=Hard
+value.SHADOW_QUALITY.1=Soft
+option.shadowDistance=Distancia de sombras
+option.SHADOW_BIAS=Bias de sombras
+option.SHADOW_BRIGHTNESS=Brillo de sombras
+option.SHADOW_DISTORT_FACTOR=Distorsion de sombras
+
+option.WARMTH=Calidez
+option.SATURATION=Saturacion
+option.CONTRAST=Contraste
+option.EXPOSURE=Exposicion
+option.GLOW_STRENGTH=Brillo
+option.BLOOM_ENABLED=Bloom
+option.BLOOM_STRENGTH=Fuerza de bloom
+option.VIGNETTE=Vignette
+option.CHROMA_ABERRATION=Aberracion cromatica
+option.SHARPEN=Nitidez
+option.WATER_TINT=Tinte del agua
+option.WATER_WAVES=Olas del agua
+option.FOG_STRENGTH=Fuerza de niebla
+option.NIGHT_FOG=Niebla nocturna
+option.FOG_DENSITY=Densidad de niebla
+option.WAVING_FOLIAGE=Plantas en movimiento
+option.WAVING_FOLIAGE.comment=Hierba, flores, cultivos y hojas. Las enredaderas no se mueven.
+option.WAVING_SPEED=Velocidad
+option.WAVING_STRENGTH=Cantidad
+
+option.SSAO_ENABLED=SSAO (experimental)
+option.SSAO_ENABLED.comment=Oclusion ambiental en espacio de pantalla. Puede ser lento en GPUs debiles. Desactivado por defecto.
+option.SSAO_STRENGTH=Fuerza SSAO
+option.GODRAYS_ENABLED=Rayos de dios (experimental)
+option.GODRAYS_ENABLED.comment=Ejes de luz del sol. Experimental, desactivado por defecto.
+option.GODRAYS_STRENGTH=Fuerza de rayos
+
+shaderDescription=HSN-Shaders Lite 26.3.6 para Minecraft 26.3 / OptiFine. SSAO y rayos de dios son experimentales y estan desactivados por defecto.
