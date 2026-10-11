@@ -1,4 +1,4 @@
-HSN-Shaders Lite 26.3.7
+HSN-Shaders Lite 
 A lightweight shader pack for Minecraft 26.3
 
 HSN-Shaders is a performance-focused shader pack designed for Iris and OptiFine. It adds subtle visual enhancements while remaining lightweight and suitable for a wide range of hardware.
