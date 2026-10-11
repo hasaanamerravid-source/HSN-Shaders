@@ -15,7 +15,7 @@ Features
 - Foliage: waving grass, flowers, crops, and leaves (vines remain static)
 - Experimental options (disabled by default): screen-space ambient occlusion (SSAO) and god rays
 
-Profiles (approximate)
+Profiles 
 - Potato: maximum performance — soft shadows, no bloom, no fog, no waving plants
 - Low: light enhancements — soft shadows, modest bloom and fog
 - Medium: balanced look — soft shadows, bloom, fog, and color grading (default)
@@ -30,9 +30,6 @@ Installation
 Configuration
 Open the shader menu in-game to choose a profile or adjust individual settings. Profiles can be further customized. Experimental features are available on their own menu page and are turned off by default.
 
-Credits
-Lighting calculations adapted from Miniature Shader (MIT License, Mateus A. Kreuch).
-Fog falloff draws inspiration from techniques used in Bliss (Chocapic13 edit).
 
 License
 Released under the MIT License. See LICENSE.txt for the full text.
