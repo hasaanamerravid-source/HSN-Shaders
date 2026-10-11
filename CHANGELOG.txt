@@ -1,0 +1,100 @@
+HSN-Shaders Changelog
+Version 26.3.7 (Current Release)
+
+This release consolidates the visual style of 26.3.6 with performance improvements and a large set of stability and visual fixes. Soft shadows are available on all profiles. Water stays close to the vanilla appearance (no strong tint or mirror reflections by default). Experimental SSAO and god rays remain available but disabled by default.
+
+Highlights
+- Soft shadows on every profile (configurable quality)
+- Per-light-type glow (warm, lava, portal, soul) that only affects bright texels
+- Wider, more visible bloom on light sources without hazing the sky
+- Improved fog that matches the sky color and fades smoothly
+- Cleaner color grading (saturation applied once)
+- Better night, rain, and Nether lighting behavior
+- Experimental menu for SSAO and god rays
+
+Detailed Changes in 26.3.7
+Visual and Atmosphere
+- Daytime fog restored to previous strength (thicker during the day, thinner at night)
+- Ambient tint reintroduced for a softer, warmer daytime look
+- Fog color now derived from the sky to eliminate horizon seams
+- Clouds fade cleanly into the haze without rings or hard cutoffs
+- Night horizon corrected to blue-gray (no purple haze)
+- Rain sky follows the vanilla gray appearance; sun and moon glare fade during rain
+- Moon glow tightened so it no longer washes out clouds
+- Nether uses plain lightmap lighting and vanilla fog color (no overworld night grading)
+
+Shadows
+- Soft shadow filter optimized (8 taps) with night-time early-out for performance
+- Shadow edge fade fixed (no dark ring at the map boundary)
+- Shadow acne on distant slopes reduced by distance- and slope-aware bias
+- Moon shadows flattened to avoid striped night lighting
+- Shadow matrices properly declared
+
+Water and Materials
+- Water lighting uses a consistent up-vector (no view-dependent shifts)
+- Only actual water receives water-specific shading; glass, ice, slime, and portals no longer receive teal tint
+- Water ripples converted to world-space coordinates
+- Night water no longer glows unnaturally next to dark terrain
+- Water remains close to the vanilla texture appearance
+
+Bloom and Post-Processing
+- Bloom blur widened for a visible but controlled halo on lava, portals, and lanterns
+- Bloom no longer hazes sky or cloud edges
+- Saturation applied only once to avoid over-saturation
+
+Other
+- Translucent programs share the water shader path
+- Glow system limited to bright texels only
+- Profiles and defaults aligned with the refined 26.3.6 look
+- Performance improvements relative to the prior 26.3.6 build
+
+Features carried forward from 26.3.6
+- Experimental SSAO (off by default) with strength control
+- Experimental god rays (off by default) with strength control
+- Dedicated Experimental menu page
+- Soft glow on sun and moon
+- Waving plants limited to grass, flowers, crops, and leaves (vines stay still)
+- Improved configuration menu (profile values match available options; no duplicate profile picker)
+
+Previous Releases
+
+26.3.5
+- Removed volumetric lighting, ambient occlusion, god rays, and water reflections for better performance
+- Removed 2D clouds option and sun/moon size sliders
+- Added post-processing master toggle (bloom, vignette, sharpen, color grade, chromatic aberration)
+- Limited bloom primarily to the sun, lava, and lamps
+- Vanilla sun, moon, and clouds preserved
+- Entity shadows enabled
+- Fixed players and mobs turning black in their own shadow
+- Fixed night fading the world to black
+- Fixed shadow popping at the edge of the shadow map
+- Fixed underwater clarity (distance fog now accumulates)
+- Fixed moon sprite incorrectly receiving sun glow
+- Fixed bloom appearing on random blocks
+
+26.3.4
+- Night grass and leaves stay green instead of turning blue
+- Fog now accounts for height, distance, and rain
+- Night fog changed to a dim warm gray
+- Bloom tightened to reduce frame-wide smearing
+
+26.3.3
+- Torches and lanterns retain correct orange color
+- Hanging lanterns, chains, and cave vines swing from the top
+- Night fog thickened slightly near the horizon
+
+26.3.1
+- Fixed terrain_translucent compilation on Iris 1.11.6 / Minecraft 26.3
+- Restored earlier configuration menu structure
+- Bloom toggle functional on all profiles
+- Vanilla sun and moon sprites restored (no drawn circle)
+- Added dedicated terrain_solid, terrain_cutout, and terrain_translucent programs
+
+26.3
+- Initial lightweight release for Minecraft 26.3
+- Volumetric lighting, SSAO, and god rays removed by default for broader hardware compatibility
+- Default shadow map resolution set to 512
+- Stable full-resolution bloom
+- Configuration menu trimmed for Iris 1.11.6 compatibility
+
+For the complete history of earlier development notes, refer to the project repository.
