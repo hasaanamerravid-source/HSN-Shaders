@@ -1,5 +1,20 @@
 HSN-Shaders Changelog
-Version 26.3.7 (Current Release)
+Version 26.3.8 (Current Release)
+
+Bug-fix and polish release. The overall 26.3.7 style is preserved; the fixes below restore behavior that was missing, inert, or undefined in 26.3.7. Water tint and waves remain off by default.
+
+Fixes
+- Fixed the invalid reversed smoothstep in the night color grade, which could produce undefined color shifts on some drivers
+- Fixed the bloom blur reading and writing the same buffer by adding a dedicated colortex2 intermediate buffer
+- Restored sunlight and moonlight bloom while keeping the broad sky and cloud gradients out of the blur
+- Restored the water tint and water wave options. Both default to off, so the default water look is unchanged; waves work independently of tint
+- Restored true surface normals for glass, ice, and other translucent blocks. Water keeps its up-facing lighting
+- Restored the required MIT attribution for Miniature Shader in LICENSE.txt and the lighting library
+- Updated the pack version strings to 26.3.8 across shaders.properties, the language files, and the READMEHSN-Shaders 
+
+
+
+Version 26.3.7 (Previous Release)
 
 This release consolidates the visual style of 26.3.6 with performance improvements and a large set of stability and visual fixes. Soft shadows are available on all profiles. Water stays close to the vanilla appearance (no strong tint or mirror reflections by default). Experimental SSAO and god rays remain available but disabled by default.
 
